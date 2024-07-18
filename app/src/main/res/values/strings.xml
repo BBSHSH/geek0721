@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Geek-07_21</string>
+    <string name="sample_text">文字列の&lt;font color=\"#%1$s\"&gt;ここだけ&lt;/font&gt;色を変える&lt;br&gt;改行もbrタグを使う必要があるので注意</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
