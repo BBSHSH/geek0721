@@ -8,10 +8,7 @@ import android.os.Bundle
 
 class MainActivity : AppCompatActivity() {
 
-
-
     private val fm = supportFragmentManager
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -19,7 +16,7 @@ class MainActivity : AppCompatActivity() {
 
 
         fm.beginTransaction().apply {
-            replace(R.id.fragment_container, MainFragment())
+            replace(R.id.activity_container, MainFragment())
             commit()
         }
     }

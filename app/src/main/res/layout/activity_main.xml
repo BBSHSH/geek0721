@@ -10,69 +10,9 @@
 
 
     <FrameLayout
-        android:id="@+id/fragment_container"
+        android:id="@+id/activity_container"
         android:layout_width="match_parent"
         android:layout_height="match_parent" >
-
-        <Button
-            android:id="@+id/toeic_button"
-            android:layout_width="308dp"
-            android:layout_height="94dp"
-            android:backgroundTint="#FFFFFF"
-            android:elevation="20dp"
-            android:padding="10dp"
-            android:text="TOEIC"
-            android:textColor="#000000"
-            android:textSize="80px"
-
-
-            app:cornerRadius="10dp" />
-
-        <Button
-            android:id="@+id/eiken_button"
-            android:layout_width="308dp"
-            android:layout_height="94dp"
-            android:backgroundTint="#FFFFFF"
-            android:elevation="20dp"
-            android:padding="10dp"
-            android:text="英検®"
-            android:textColor="#000000"
-            android:textSize="80px"
-
-            app:cornerRadius="10dp" />
     </FrameLayout>
-
-
-    <Button
-        android:id="@+id/back"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:backgroundTint="#000000"
-        android:elevation="20dp"
-        android:padding="10dp"
-        android:text="戻る"
-        android:textColor="#FFFFFF"
-        android:textSize="16sp"
-
-        app:cornerRadius="100dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.958" />
-
-    <TextView
-        android:id="@+id/eiken_mode"
-        android:layout_width="410dp"
-        android:layout_height="124dp"
-        android:background="#FF0004"
-        android:gravity="center"
-        android:text="英検®モード"
-        android:textSize="140px"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="0dp" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

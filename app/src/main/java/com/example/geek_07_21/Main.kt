@@ -32,7 +32,7 @@ class MainFragment : Fragment() {
             // トランザクションの生成・コミット
             val ft = pfm.beginTransaction()
             ft.apply {
-                replace(R.id.fragment_container, Eiken_Mode())
+                replace(R.id.MainContainer, Eiken_Mode())
                 commit()
             }
         }
