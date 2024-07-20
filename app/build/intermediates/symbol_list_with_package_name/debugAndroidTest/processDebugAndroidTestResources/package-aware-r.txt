@@ -1,0 +1,3 @@
+com.example.geek_07_21.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

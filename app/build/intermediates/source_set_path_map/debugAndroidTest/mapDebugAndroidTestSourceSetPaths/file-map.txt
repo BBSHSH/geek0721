@@ -1,0 +1,5 @@
+com.example.geek_07_21.test.app-core-1.6.1-0 C:\Users\asuno\.gradle\caches\transforms-4\9dd2a029095b262c21dd778de55bd74b\transformed\core-1.6.1\res
+com.example.geek_07_21.test.app-androidTest-1 C:\Users\asuno\AndroidStudioProjects\geek0721\app\build\generated\res\resValues\androidTest\debug
+com.example.geek_07_21.test.app-mergeDebugAndroidTestResources-2 C:\Users\asuno\AndroidStudioProjects\geek0721\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.example.geek_07_21.test.app-mergeDebugAndroidTestResources-3 C:\Users\asuno\AndroidStudioProjects\geek0721\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.example.geek_07_21.test.app-debugAndroidTest-4 C:\Users\asuno\AndroidStudioProjects\geek0721\app\build\intermediates\merged_res\debugAndroidTest\mergeDebugAndroidTestResources

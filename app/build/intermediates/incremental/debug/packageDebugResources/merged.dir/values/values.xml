@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <dimen name="text_margin">16dp</dimen>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sample_text">文字列の&lt;font color=\"#%1$s\">ここだけ&lt;/font>色を変える&lt;br>改行もbrタグを使う必要があるので注意</string>
+    <style name="Base.Theme.Geek07_21" parent="Theme.Material3.DayNight.NoActionBar">
+        
+        
+    </style>
+    <style name="Theme.Geek07_21" parent="Base.Theme.Geek07_21"/>
+</resources>

@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-mdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/anim_fade_in.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/anim/fade_in.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_ic_launcher_foreground.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_activity_match_screen.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/activity_match_screen.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-mdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-hdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_ranking.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/ranking.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_custom_healthbar.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/custom_healthbar.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_frame.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/frame.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_fragment_registration.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/fragment_registration.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_bg.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/bg.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xxxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/anim_fade_out.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/anim/fade_out.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_settings.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/settings.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-anydpi_ic_launcher.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-anydpi/ic_launcher.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/anim_translate_animation.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/anim/translate_animation.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_activity_accout.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/activity_accout.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_header_trapezoid.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/header_trapezoid.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_logo.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/logo.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_button_shadow.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/button_shadow.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_activity_match_making.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/activity_match_making.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_dialog_menu.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/dialog_menu.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_activity_main.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/xml_backup_rules.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xxhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_bottomborder.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/bottomborder.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_fragment_login.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/fragment_login.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_fragment_eiken_mode.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/fragment_eiken_mode.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-anydpi_ic_launcher_round.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-anydpi/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_help.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/help.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_friend.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/friend.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/drawable_menu_icon.png.flat",
+        "source": "com.example.geek_07_21.app-main-35:/drawable/menu_icon.png"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/font_georgiab.ttf.flat",
+        "source": "com.example.geek_07_21.app-main-35:/font/georgiab.ttf"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.geek_07_21.app-main-35:/mipmap-xhdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "com.example.geek_07_21.app-debug-33:/layout_fragment_main.xml.flat",
+        "source": "com.example.geek_07_21.app-main-35:/layout/fragment_main.xml"
+    }
+]
