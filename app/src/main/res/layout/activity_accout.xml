@@ -5,14 +5,15 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#d6d6d6"
-    tools:context=".MainActivity">
-
+    tools:context=".Accout">
 
     <FrameLayout
         android:id="@+id/account_container"
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-    </FrameLayout>
-
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"></FrameLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
