@@ -29,7 +29,8 @@ class MainFragment : Fragment() {
             // FragmentManagerの取得
             val pfm = parentFragmentManager
 
-            // トランザクションの生成・コミット
+            // トラン
+            // ザクションの生成・コミット
             val ft = pfm.beginTransaction()
             ft.apply {
                 replace(R.id.MainContainer, Eiken_Mode())
