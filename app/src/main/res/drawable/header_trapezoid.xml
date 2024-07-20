@@ -20,3 +20,4 @@
                 <size android:height="88dp" android:width="77dp"></size>
             </shape>
     </item>
+</layer-list>
