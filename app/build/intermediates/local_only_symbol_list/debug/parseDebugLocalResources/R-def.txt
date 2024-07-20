@@ -22,7 +22,6 @@ drawable ranking
 drawable settings
 font georgiab
 id MainContainer
-id account_container
 id btnAnswer1
 id btnAnswer2
 id btnAnswer3
@@ -46,6 +45,7 @@ id iv_player2Icon
 id login
 id logo
 id main
+id mainActivity
 id mode
 id myword
 id name_txt

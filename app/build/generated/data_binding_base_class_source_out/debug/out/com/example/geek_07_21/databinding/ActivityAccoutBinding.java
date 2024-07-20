@@ -20,16 +20,16 @@ public final class ActivityAccoutBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final FrameLayout accountContainer;
-
-  @NonNull
   public final ConstraintLayout main;
 
-  private ActivityAccoutBinding(@NonNull ConstraintLayout rootView,
-      @NonNull FrameLayout accountContainer, @NonNull ConstraintLayout main) {
+  @NonNull
+  public final FrameLayout mainActivity;
+
+  private ActivityAccoutBinding(@NonNull ConstraintLayout rootView, @NonNull ConstraintLayout main,
+      @NonNull FrameLayout mainActivity) {
     this.rootView = rootView;
-    this.accountContainer = accountContainer;
     this.main = main;
+    this.mainActivity = mainActivity;
   }
 
   @Override
@@ -59,15 +59,15 @@ public final class ActivityAccoutBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.account_container;
-      FrameLayout accountContainer = ViewBindings.findChildViewById(rootView, id);
-      if (accountContainer == null) {
+      ConstraintLayout main = (ConstraintLayout) rootView;
+
+      id = R.id.mainActivity;
+      FrameLayout mainActivity = ViewBindings.findChildViewById(rootView, id);
+      if (mainActivity == null) {
         break missingId;
       }
 
-      ConstraintLayout main = (ConstraintLayout) rootView;
-
-      return new ActivityAccoutBinding((ConstraintLayout) rootView, accountContainer, main);
+      return new ActivityAccoutBinding((ConstraintLayout) rootView, main, mainActivity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

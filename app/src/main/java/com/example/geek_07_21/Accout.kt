@@ -20,7 +20,7 @@ class Accout : AppCompatActivity() {
             insets
         }
         fm.beginTransaction().apply {
-            replace(R.id.account_container,Login() )
+            replace(R.id.mainActivity,Login() )
             commit()
         }
     }

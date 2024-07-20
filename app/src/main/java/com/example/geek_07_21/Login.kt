@@ -1,5 +1,6 @@
 package com.example.geek_07_21
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -23,7 +24,6 @@ class Login : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         val button = view.findViewById<Button>(R.id.login)
-        button.setOnClickListener {
-        }
+
     }
 }

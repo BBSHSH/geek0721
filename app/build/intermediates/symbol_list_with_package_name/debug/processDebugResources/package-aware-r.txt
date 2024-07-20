@@ -3167,7 +3167,6 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
-id account_container
 id action0
 id actionDown
 id actionDownUp
@@ -3388,6 +3387,7 @@ id login
 id logo
 id m3_side_sheet
 id main
+id mainActivity
 id marquee
 id masked
 id match_constraint
