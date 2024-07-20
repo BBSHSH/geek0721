@@ -3450,6 +3450,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myword
+id name_txt
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -3496,6 +3497,7 @@ id parentRelative
 id parent_matrix
 id password
 id password_toggle
+id password_txt
 id path
 id pathRelative
 id peekHeight

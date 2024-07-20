@@ -48,7 +48,9 @@ id logo
 id main
 id mode
 id myword
+id name_txt
 id password
+id password_txt
 id player1Health
 id player2Health
 id regist
