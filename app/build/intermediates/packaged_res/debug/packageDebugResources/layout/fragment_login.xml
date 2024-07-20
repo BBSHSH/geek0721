@@ -3,16 +3,26 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#535353">
+    android:background="#6F000000">
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="325dp"
+        android:layout_height="486dp"
+        android:layout_gravity="center_vertical|center"
+        android:orientation="vertical"
+        android:background="@drawable/radius"
+        android:radius="15dp"
+        />
 
     <LinearLayout
         android:layout_width="325dp"
-        android:layout_height="444dp"
+        android:layout_height="486dp"
         android:layout_gravity="center"
-        android:background="#D6D6D6"
+
         android:gravity="center_vertical|center"
         android:orientation="vertical"
-        android:radius="30dp"
+
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -47,7 +57,8 @@
             android:id="@+id/name_txt"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="TextView" />
+            android:paddingTop="20dp"
+            android:text="ユーザーID" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
@@ -55,34 +66,43 @@
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/id"
-                android:layout_width="match_parent"
+                android:layout_gravity="center"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
                 android:hint="hint" />
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:id="@+id/password"
+            android:id="@+id/repassword_txt"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_weight="1"
-            android:text="TextView" />
+            android:gravity="center"
+            android:text="パスワード" />
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/password_txt"
-                android:layout_width="match_parent"
+                android:id="@+id/password_txt"                android:layout_gravity="center"
+                android:layout_width="280dp"
                 android:layout_height="wrap_content"
-                android:hint="hint" />
+                android:hint="hint"
+
+                />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <Button
             android:id="@+id/login"
-            android:layout_width="match_parent"
+            android:layout_width="170dp"
             android:layout_height="50dp"
             android:layout_marginTop="35dp"
             android:backgroundTint="#2C2C2C"
@@ -90,9 +110,10 @@
             android:padding="10dp"
             android:text="ログイン"
             android:textColor="#FFFFFF"
+
             android:textSize="16sp"
 
-            app:cornerRadius="100dp"
+            app:cornerRadius="10dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
@@ -105,13 +126,14 @@
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:layout_marginTop="35dp"
-            android:backgroundTint="#2C2C2C"
+            android:layout_marginBottom="10dp"
+            android:backgroundTint="#002C2C2C"
             android:elevation="20dp"
             android:padding="10dp"
             android:text="新規作成"
-            android:textColor="#FFFFFF"
-            android:textSize="16sp"
+            android:textColor="#000000"
 
+            android:textSize="16sp"
             app:cornerRadius="100dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"

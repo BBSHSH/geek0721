@@ -22,8 +22,20 @@ class Registration : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button = view.findViewById<Button>(R.id.login)
-        button.setOnClickListener {
+        val back_button = view.findViewById<Button>(R.id.back)
+
+        back_button.setOnClickListener {
+            // FragmentManagerの取得
+            val pfm = parentFragmentManager
+
+            // トラン
+            // ザクションの生成・コミット
+            val ft = pfm.beginTransaction()
+            ft.apply {
+                replace(R.id.MainContainer, Login())
+                commit()
+            }
+
         }
     }
 }

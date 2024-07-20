@@ -35,30 +35,34 @@ public final class FragmentLoginBinding implements ViewBinding {
   public final TextView nameTxt;
 
   @NonNull
-  public final TextView password;
-
-  @NonNull
   public final TextInputEditText passwordTxt;
 
   @NonNull
   public final Button regist;
 
   @NonNull
+  public final TextView repasswordTxt;
+
+  @NonNull
   public final TextView title;
+
+  @NonNull
+  public final View view2;
 
   private FragmentLoginBinding(@NonNull FrameLayout rootView, @NonNull TextInputEditText id,
       @NonNull Button login, @NonNull ImageView logo, @NonNull TextView nameTxt,
-      @NonNull TextView password, @NonNull TextInputEditText passwordTxt, @NonNull Button regist,
-      @NonNull TextView title) {
+      @NonNull TextInputEditText passwordTxt, @NonNull Button regist,
+      @NonNull TextView repasswordTxt, @NonNull TextView title, @NonNull View view2) {
     this.rootView = rootView;
     this.id = id;
     this.login = login;
     this.logo = logo;
     this.nameTxt = nameTxt;
-    this.password = password;
     this.passwordTxt = passwordTxt;
     this.regist = regist;
+    this.repasswordTxt = repasswordTxt;
     this.title = title;
+    this.view2 = view2;
   }
 
   @Override
@@ -112,12 +116,6 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.password;
-      TextView password = ViewBindings.findChildViewById(rootView, id);
-      if (password == null) {
-        break missingId;
-      }
-
       id = R.id.password_txt;
       TextInputEditText passwordTxt = ViewBindings.findChildViewById(rootView, id);
       if (passwordTxt == null) {
@@ -130,14 +128,26 @@ public final class FragmentLoginBinding implements ViewBinding {
         break missingId;
       }
 
+      id = R.id.repassword_txt;
+      TextView repasswordTxt = ViewBindings.findChildViewById(rootView, id);
+      if (repasswordTxt == null) {
+        break missingId;
+      }
+
       id = R.id.title;
       TextView title = ViewBindings.findChildViewById(rootView, id);
       if (title == null) {
         break missingId;
       }
 
-      return new FragmentLoginBinding((FrameLayout) rootView, id_, login, logo, nameTxt, password,
-          passwordTxt, regist, title);
+      id = R.id.view2;
+      View view2 = ViewBindings.findChildViewById(rootView, id);
+      if (view2 == null) {
+        break missingId;
+      }
+
+      return new FragmentLoginBinding((FrameLayout) rootView, id_, login, logo, nameTxt,
+          passwordTxt, regist, repasswordTxt, title, view2);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

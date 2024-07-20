@@ -3112,6 +3112,7 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable radius
 drawable ranking
 drawable settings
 drawable test_level_drawable
@@ -3207,6 +3208,7 @@ id auto
 id autoComplete
 id autoCompleteToEnd
 id autoCompleteToStart
+id back
 id barrier
 id baseline
 id beginOnFirstDraw
@@ -3450,6 +3452,7 @@ id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
 id myword
+id name
 id name_txt
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
@@ -3515,6 +3518,8 @@ id radio
 id ratio
 id rectangles
 id regist
+id repassword
+id repassword_txt
 id report_drawn
 id reverseSawtooth
 id right
@@ -3651,8 +3656,11 @@ id uniform
 id unlabeled
 id up
 id useLogo
+id user_id
+id user_id_txt
 id vertical_only
 id view
+id view2
 id view_offset_helper
 id view_transition
 id view_tree_lifecycle_owner

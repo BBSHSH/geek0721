@@ -8,6 +8,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.geek_07_21.Eiken_Mode
+import com.example.geek_07_21.Login
 import com.example.geek_07_21.R
 
 
@@ -24,8 +25,10 @@ class MainFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        val button = view.findViewById<Button>(R.id.eiken_button)
-        button.setOnClickListener {
+        val eikenbutton = view.findViewById<Button>(R.id.eiken_button)
+        val button = view.findViewById<Button>(R.id.toeic_button)
+
+        eikenbutton.setOnClickListener {
             // FragmentManagerの取得
             val pfm = parentFragmentManager
 
@@ -36,6 +39,20 @@ class MainFragment : Fragment() {
                 replace(R.id.MainContainer, Eiken_Mode())
                 commit()
             }
+
+        }
+        button.setOnClickListener {
+            // FragmentManagerの取得
+            val pfm = parentFragmentManager
+
+            // トラン
+            // ザクションの生成・コミット
+            val ft = pfm.beginTransaction()
+            ft.apply {
+                replace(R.id.MainContainer, Login())
+                commit()
+            }
+
         }
     }
 }

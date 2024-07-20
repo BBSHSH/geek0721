@@ -20,10 +20,6 @@
         "source": "C:\\Users\\YOZOLA\\.gradle\\daemon\\8.7\\com.example.geek_07_21.app-main-35:\\layout\\activity_accout.xml"
     },
     {
-        "merged": "com.example.geek_07_21.app-mergeDebugResources-32:/layout/activity_main.xml",
-        "source": "com.example.geek_07_21.app-main-35:/layout/activity_main.xml"
-    },
-    {
         "merged": "C:\\Users\\YOZOLA\\.gradle\\daemon\\8.7\\com.example.geek_07_21.app-mergeDebugResources-32:\\layout\\fragment_main.xml",
         "source": "C:\\Users\\YOZOLA\\.gradle\\daemon\\8.7\\com.example.geek_07_21.app-main-35:\\layout\\fragment_main.xml"
     },
@@ -40,7 +36,7 @@
         "source": "C:\\Users\\YOZOLA\\.gradle\\daemon\\8.7\\com.example.geek_07_21.app-main-35:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "com.example.geek_07_21.app-mergeDebugResources-32:/layout/activity_accout.xml",
-        "source": "com.example.geek_07_21.app-main-35:/layout/activity_accout.xml"
+        "merged": "com.example.geek_07_21.app-mergeDebugResources-32:/layout/fragment_login.xml",
+        "source": "com.example.geek_07_21.app-main-35:/layout/fragment_login.xml"
     }
 ]

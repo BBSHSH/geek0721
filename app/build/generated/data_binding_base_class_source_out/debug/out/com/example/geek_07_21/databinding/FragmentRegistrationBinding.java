@@ -4,20 +4,73 @@ package com.example.geek_07_21.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.EditText;
 import android.widget.FrameLayout;
+import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.viewbinding.ViewBinding;
+import androidx.viewbinding.ViewBindings;
 import com.example.geek_07_21.R;
 import java.lang.NullPointerException;
 import java.lang.Override;
+import java.lang.String;
 
 public final class FragmentRegistrationBinding implements ViewBinding {
   @NonNull
   private final FrameLayout rootView;
 
-  private FragmentRegistrationBinding(@NonNull FrameLayout rootView) {
+  @NonNull
+  public final Button back;
+
+  @NonNull
+  public final EditText name;
+
+  @NonNull
+  public final TextView nameTxt;
+
+  @NonNull
+  public final EditText password;
+
+  @NonNull
+  public final TextView passwordTxt;
+
+  @NonNull
+  public final Button regist;
+
+  @NonNull
+  public final EditText repassword;
+
+  @NonNull
+  public final TextView repasswordTxt;
+
+  @NonNull
+  public final TextView title;
+
+  @NonNull
+  public final EditText userId;
+
+  @NonNull
+  public final TextView userIdTxt;
+
+  private FragmentRegistrationBinding(@NonNull FrameLayout rootView, @NonNull Button back,
+      @NonNull EditText name, @NonNull TextView nameTxt, @NonNull EditText password,
+      @NonNull TextView passwordTxt, @NonNull Button regist, @NonNull EditText repassword,
+      @NonNull TextView repasswordTxt, @NonNull TextView title, @NonNull EditText userId,
+      @NonNull TextView userIdTxt) {
     this.rootView = rootView;
+    this.back = back;
+    this.name = name;
+    this.nameTxt = nameTxt;
+    this.password = password;
+    this.passwordTxt = passwordTxt;
+    this.regist = regist;
+    this.repassword = repassword;
+    this.repasswordTxt = repasswordTxt;
+    this.title = title;
+    this.userId = userId;
+    this.userIdTxt = userIdTxt;
   }
 
   @Override
@@ -43,10 +96,80 @@ public final class FragmentRegistrationBinding implements ViewBinding {
 
   @NonNull
   public static FragmentRegistrationBinding bind(@NonNull View rootView) {
-    if (rootView == null) {
-      throw new NullPointerException("rootView");
-    }
+    // The body of this method is generated in a way you would not otherwise write.
+    // This is done to optimize the compiled bytecode for size and performance.
+    int id;
+    missingId: {
+      id = R.id.back;
+      Button back = ViewBindings.findChildViewById(rootView, id);
+      if (back == null) {
+        break missingId;
+      }
 
-    return new FragmentRegistrationBinding((FrameLayout) rootView);
+      id = R.id.name;
+      EditText name = ViewBindings.findChildViewById(rootView, id);
+      if (name == null) {
+        break missingId;
+      }
+
+      id = R.id.name_txt;
+      TextView nameTxt = ViewBindings.findChildViewById(rootView, id);
+      if (nameTxt == null) {
+        break missingId;
+      }
+
+      id = R.id.password;
+      EditText password = ViewBindings.findChildViewById(rootView, id);
+      if (password == null) {
+        break missingId;
+      }
+
+      id = R.id.password_txt;
+      TextView passwordTxt = ViewBindings.findChildViewById(rootView, id);
+      if (passwordTxt == null) {
+        break missingId;
+      }
+
+      id = R.id.regist;
+      Button regist = ViewBindings.findChildViewById(rootView, id);
+      if (regist == null) {
+        break missingId;
+      }
+
+      id = R.id.repassword;
+      EditText repassword = ViewBindings.findChildViewById(rootView, id);
+      if (repassword == null) {
+        break missingId;
+      }
+
+      id = R.id.repassword_txt;
+      TextView repasswordTxt = ViewBindings.findChildViewById(rootView, id);
+      if (repasswordTxt == null) {
+        break missingId;
+      }
+
+      id = R.id.title;
+      TextView title = ViewBindings.findChildViewById(rootView, id);
+      if (title == null) {
+        break missingId;
+      }
+
+      id = R.id.user_id;
+      EditText userId = ViewBindings.findChildViewById(rootView, id);
+      if (userId == null) {
+        break missingId;
+      }
+
+      id = R.id.user_id_txt;
+      TextView userIdTxt = ViewBindings.findChildViewById(rootView, id);
+      if (userIdTxt == null) {
+        break missingId;
+      }
+
+      return new FragmentRegistrationBinding((FrameLayout) rootView, back, name, nameTxt, password,
+          passwordTxt, regist, repassword, repasswordTxt, title, userId, userIdTxt);
+    }
+    String missingId = rootView.getResources().getResourceName(id);
+    throw new NullPointerException("Missing required view with ID: ".concat(missingId));
   }
 }
